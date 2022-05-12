@@ -1,0 +1,83 @@
+\hypertarget{print__ip_8h}{}\doxysection{print\+\_\+ip.\+h File Reference}
+\label{print__ip_8h}\index{print\_ip.h@{print\_ip.h}}
+{\ttfamily \#include $<$type\+\_\+traits$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}pretty.\+h\char`\"{}}\newline
+Include dependency graph for print\+\_\+ip.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class T $>$ }\\std\+::enable\+\_\+if\+\_\+t$<$ std\+::is\+\_\+integral\+\_\+v$<$ T $>$ $>$ \mbox{\hyperlink{print__ip_8h_aa3f69a9ec63142176124a4df8eb271d6}{print\+Ip}} (T integral\+Ip, std\+::ostream \&out=std\+::cout)
+\begin{DoxyCompactList}\small\item\em print ip as integral type \end{DoxyCompactList}\item 
+{\footnotesize template$<$class Container , typename  = typename Container\+::iterator$>$ }\\void \mbox{\hyperlink{print__ip_8h_a369f8d7bbca583b9004662a3458b30dd}{print\+Ip}} (Container container\+Ip, std\+::ostream \&out=std\+::cout)
+\begin{DoxyCompactList}\small\item\em print ip as container \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{print__ip_8h_aed89984d3f392a68cd0ed9cadab8f752}{print\+Ip}} (std\+::string ip, std\+::ostream \&out=std\+::cout)
+\begin{DoxyCompactList}\small\item\em print ip as string \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{print__ip_8h_a369f8d7bbca583b9004662a3458b30dd}\label{print__ip_8h_a369f8d7bbca583b9004662a3458b30dd}} 
+\index{print\_ip.h@{print\_ip.h}!printIp@{printIp}}
+\index{printIp@{printIp}!print\_ip.h@{print\_ip.h}}
+\doxysubsubsection{\texorpdfstring{printIp()}{printIp()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$class Container , typename  = typename Container\+::iterator$>$ \\
+void print\+Ip (\begin{DoxyParamCaption}\item[{Container}]{container\+Ip,  }\item[{std\+::ostream \&}]{out = {\ttfamily std\+:\+:cout} }\end{DoxyParamCaption})}
+
+
+
+print ip as container 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em Container} & \\
+\hline
+{\em typename} & \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em container\+Ip} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{print__ip_8h_aed89984d3f392a68cd0ed9cadab8f752}\label{print__ip_8h_aed89984d3f392a68cd0ed9cadab8f752}} 
+\index{print\_ip.h@{print\_ip.h}!printIp@{printIp}}
+\index{printIp@{printIp}!print\_ip.h@{print\_ip.h}}
+\doxysubsubsection{\texorpdfstring{printIp()}{printIp()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void print\+Ip (\begin{DoxyParamCaption}\item[{std\+::string}]{ip,  }\item[{std\+::ostream \&}]{out = {\ttfamily std\+:\+:cout} }\end{DoxyParamCaption})}
+
+
+
+print ip as string 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ip} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{print__ip_8h_aa3f69a9ec63142176124a4df8eb271d6}\label{print__ip_8h_aa3f69a9ec63142176124a4df8eb271d6}} 
+\index{print\_ip.h@{print\_ip.h}!printIp@{printIp}}
+\index{printIp@{printIp}!print\_ip.h@{print\_ip.h}}
+\doxysubsubsection{\texorpdfstring{printIp()}{printIp()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+std\+::enable\+\_\+if\+\_\+t$<$std\+::is\+\_\+integral\+\_\+v$<$T$>$ $>$ print\+Ip (\begin{DoxyParamCaption}\item[{T}]{integral\+Ip,  }\item[{std\+::ostream \&}]{out = {\ttfamily std\+:\+:cout} }\end{DoxyParamCaption})}
+
+
+
+print ip as integral type 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em integral\+Ip} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::enable\+\_\+if\+\_\+t$<$std\+::is\+\_\+integral\+\_\+v$<$\+T$>$$>$ 
+\end{DoxyReturn}
